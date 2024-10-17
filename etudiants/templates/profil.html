@@ -1,0 +1,6 @@
+#Pour afficher l'image de profil (avatar) sur la page de profil de l'utilisateur
+
+<img src="{{ user.profile.avatar.url }}" alt="Photo de profil" />
+<p>Nom : {{ user.first_name }} {{ user.last_name }}</p>
+<p>Email : {{ user.email }}</p>
+<p>Biographie : {{ user.profile.bio }}</p>
